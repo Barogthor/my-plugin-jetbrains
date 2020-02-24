@@ -13,7 +13,7 @@
     <depends>com.intellij.modules.platform</depends>
 
     <extensions defaultExtensionNs="com.intellij">
-        <fileType name="V file" implementationClass="com.myPlugin.VFileType"
+        <fileType name="V file" implementationClass="org.myPlugin.VFileType"
                   fieldName="INSTANCE" language="V" extensions="v" />
         <!-- Add your extensions here -->
     </extensions>

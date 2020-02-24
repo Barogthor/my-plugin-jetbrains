@@ -1,4 +1,4 @@
-package com.myPlugin;
+package org.myPlugin;
 
 import com.intellij.openapi.util.IconLoader;
 

@@ -1,7 +1,6 @@
-package com.myPlugin;
+package org.myPlugin;
 
 import com.intellij.lang.Language;
-import org.jetbrains.annotations.NotNull;
 
 public class VLanguage extends Language {
     public static final VLanguage INSTANCE = new VLanguage();

@@ -1,4 +1,4 @@
-package com.myPlugin;
+package org.myPlugin;
 
 import com.intellij.openapi.fileTypes.LanguageFileType;
 import org.jetbrains.annotations.NotNull;
@@ -16,7 +16,7 @@ public class VFileType extends LanguageFileType {
     @NotNull
     @Override
     public String getName() {
-        return "Vlang file";
+        return "V file";
     }
 
     @NotNull
