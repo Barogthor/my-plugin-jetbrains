@@ -90,7 +90,7 @@ allprojects {
     apply plugin: 'org.jetbrains.intellij'
     intellij {
 //        pluginName 'my-plugin-jetbrains'
-        version ideaVersion
+        version "$ideaVersion"
 //        plugins ['PsiViewer:3.28.93']
         intellij.updateSinceUntilBuild false //Disables updating since-build attribute in plugin.xml
 
